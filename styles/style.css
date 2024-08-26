@@ -1,0 +1,179 @@
+/*reseta os estilos padrões*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*configurações gerais*/
+body {
+    font-family: 'poppins';
+    background-color: #232639;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilização dos títulos */
+h1, h2, h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    padding: 15px;
+    font-weight: 200;
+}
+
+h2 {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+/* Parágrafos */
+p {
+    text-align: center;
+    margin: 20px;
+}
+
+.descricao{
+    font-weight: 200;
+    font-size: 14px;
+    font-style: italic;
+}
+
+/* Estilo para o link de voltar */
+#voltar {
+    margin-top: 50px;
+    text-align: center;
+}
+
+/*background div*/
+.fundo{
+    text-align: justify;
+    margin-top: 50px;
+    background-color: #2B2D40;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+/*Estilo das imagens*/
+.imagem-about{
+    width: 150px;
+    border-radius: 50%;
+}
+
+.imagem-portfolio{
+    border: 5px solid #212335;
+    width: 300px;
+    margin-left: 20px;
+}
+
+.imagem-portfolio:hover{
+    transform: scale(1.05);
+    transition: 0.3s all;   
+}
+
+/*alinhar a imagem*/
+.secao-img{
+    margin-top: 50px;
+    text-align: center;
+}
+
+header{
+    background-color: #212335;
+    width: 100%;
+}
+
+
+/* Lista de navegação */
+ul {   
+    padding: 30px;
+}
+
+.menu{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+
+}
+
+/* Lista de formação*/
+.lista-formacao{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/*efeito hover no link*/
+a:hover{
+    color:#FF4C56;
+    transition: 0.3s all;
+}
+
+/* Estilização do formulário */
+form {
+    background-color: #2B2D40;
+    border-radius: 25px;
+    width: 500px;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+/* Labels */
+label {
+    margin-left: 30px;
+    display: block;
+}
+
+/* Inputs */
+input, textarea {
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+/* Inputs específicos */
+input {
+    height: 50px;
+}
+
+textarea {
+    height: 150px;
+}
+
+/* Botão de envio */
+button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 50px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Efeito hover no botão */
+button:hover {
+    background-color: #FF4C56;
+    color: white;
+    transition: 0.3s all;
+}
